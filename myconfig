@@ -1,0 +1,6 @@
+scripts/config --disable CONFIG_DRM_NOUVEAU
+scripts/config --disable CONFIG_WATCHDOG
+scripts/config --disable CONFIG_IMA_ARCH_POLICY
+scripts/config --disable CONFIG_PREEMPT
+scripts/config --disable CONFIG_PREEMPT_DYNAMIC
+scripts/config --enable CONFIG_PREEMPT_VOLUNTARY

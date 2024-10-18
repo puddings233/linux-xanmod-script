@@ -1,7 +1,11 @@
+scripts/config --disable CONFIG_CC_OPTIMIZE_FOR_PERFORMANCE
+scripts/config --enable CONFIG_CC_OPTIMIZE_FOR_PERFORMANCE_O3
 scripts/config --disable CONFIG_DRM_NOUVEAU
 scripts/config --disable CONFIG_WATCHDOG
 scripts/config --disable CONFIG_IMA_ARCH_POLICY
 scripts/config --disable CONFIG_PSI_DEFAULT_DISABLED
 scripts/config --disable CONFIG_PREEMPT
+scripts/config --disable CONFIG_PREEMPT_NONE
 scripts/config --disable CONFIG_PREEMPT_DYNAMIC
 scripts/config --enable CONFIG_PREEMPT_VOLUNTARY
+scripts/config --enable CONFIG_PREEMPT_VOLUNTARY_BUILD

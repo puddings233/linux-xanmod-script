@@ -4,6 +4,7 @@ scripts/config --disable CONFIG_DRM_NOUVEAU
 scripts/config --disable CONFIG_WATCHDOG
 scripts/config --disable CONFIG_INPUT_PCSPKR
 scripts/config --enable CONFIG_ASUS_ARMOURY
+scripts/config --enable CONFIG_SCHED_CLASS_EXT
 scripts/config --enable CONFIG_V4L2_LOOPBACK
 scripts/config --enable CONFIG_AUTOFS_FS
 scripts/config --disable CONFIG_IMA_ARCH_POLICY

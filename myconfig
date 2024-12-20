@@ -1,7 +1,6 @@
 scripts/config --disable CONFIG_CC_OPTIMIZE_FOR_PERFORMANCE
 scripts/config --enable CONFIG_CC_OPTIMIZE_FOR_PERFORMANCE_O3
 scripts/config --disable CONFIG_DRM_NOUVEAU
-scripts/config --disable CONFIG_WATCHDOG
 scripts/config --disable CONFIG_INPUT_PCSPKR
 scripts/config --enable CONFIG_ASUS_ARMOURY
 scripts/config --enable CONFIG_SCHED_CLASS_EXT

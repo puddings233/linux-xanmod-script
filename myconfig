@@ -1,5 +1,6 @@
 scripts/config --disable CONFIG_CC_OPTIMIZE_FOR_PERFORMANCE
 scripts/config --enable CONFIG_CC_OPTIMIZE_FOR_PERFORMANCE_O3
+scripts/config --enable CONFIG_HZ_1000
 scripts/config --disable CONFIG_DRM_NOUVEAU
 scripts/config --disable CONFIG_INPUT_PCSPKR
 scripts/config --enable CONFIG_ASUS_ARMOURY

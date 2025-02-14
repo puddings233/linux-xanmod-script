@@ -1,6 +1,8 @@
 scripts/config --undefine CONFIG_EXPERT
 scripts/config --enable CONFIG_HZ_1000
 scripts/config --disable CONFIG_DRM_NOUVEAU
+scripts/config --enable CONFIG_FB_VESA
+scripts/config --enable CONFIG_FB_EFI
 scripts/config --disable CONFIG_INPUT_PCSPKR
 scripts/config --disable CONFIG_SCHED_CLASS_EXT
 scripts/config --enable CONFIG_V4L2_LOOPBACK

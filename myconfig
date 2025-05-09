@@ -12,5 +12,5 @@ scripts/config --disable CONFIG_PSI_DEFAULT_DISABLED
 scripts/config --disable CONFIG_PREEMPT
 scripts/config --disable CONFIG_PREEMPT_NONE
 scripts/config --disable CONFIG_PREEMPT_DYNAMIC
-scripts/config --enable CONFIG_PREEMPT_VOLUNTARY
-scripts/config --enable CONFIG_PREEMPT_VOLUNTARY_BUILD
+scripts/config --disable CONFIG_PREEMPT_VOLUNTARY
+scripts/config --enable CONFIG_PREEMPT_LAZY

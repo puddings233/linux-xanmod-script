@@ -1,3 +1,4 @@
+scripts/config --disable CONFIG_ZRAM
 scripts/config --enable CONFIG_ZSWAP
 scripts/config --enable CONFIG_ZSWAP_COMPRESSOR_DEFAULT_LZ4
 scripts/config --enable CONFIG_CRYPTO_LZ4
